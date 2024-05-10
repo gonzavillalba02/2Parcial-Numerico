@@ -1,0 +1,23 @@
+.titulo {
+    color: #9F75FF;
+    border: 1px solid #9F75FF;
+    border-radius: 4px;
+    padding: .5vh 1vh;
+    width: fit-content;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 1vh 0;
+    border: none;
+    border-bottom: 1.5px solid #9F75FF;
+    color: #5A03D5;
+}
+
+form input:focus {
+    outline: none;
+}
